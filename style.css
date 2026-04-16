@@ -236,6 +236,15 @@ ul { list-style: none; }
 }
 .map-hint { font-size: 0.8rem; margin-top: 8px; }
 
+/* =============== ページトップボタン =============== */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
 /* =============== フッター =============== */
 .site-footer {
   background: var(--text-main);
