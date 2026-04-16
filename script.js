@@ -44,3 +44,18 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
       behavior: "smooth"
     });
   });
+  
+  
+  
+  // ===================================================
+  //ヘッダーの影
+  // ===================================================  
+  const header = document.getElementById("header");
+
+   window.addEventListener("scroll", () => {
+     if (window.scrollY > 50) {
+       header.classList.add("scrolled");
+     } else {
+       header.classList.remove("scrolled");
+     }
+   });
