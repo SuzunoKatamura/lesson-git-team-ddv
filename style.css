@@ -10,9 +10,9 @@
 :root {
   /* ★ Issue #2 と #3: チームカラーに変更する（コンフリクット仕掛け） */
 
-  --theme-color:   green;
+  --theme-color:   #a1be95;
   --theme-dark:    yellow;
-  --theme-light:   red;
+  --theme-light:   #fdd475;
 
   --bg-white:      #ffffff;
   --bg-gray:       #f5f5f5;
